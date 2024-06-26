@@ -1,0 +1,29 @@
+.first-video {
+  max-width: 20%;
+  height: auto;
+  margin: 10px;
+  border-radius: 30px;
+ 
+}
+
+.second-video {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.first-img{
+  
+  max-width: 100%;
+  margin: 10px;
+    height: auto;
+
+}
+
+.second-img {
+  max-width: 100%;
+  margin: 10px;
+  
+  
+}
+
