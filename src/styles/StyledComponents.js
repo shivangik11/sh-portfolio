@@ -187,7 +187,7 @@ export const ProjectList = styled.ul`
 
   li {
     font-size: 22px;
-    padding: 10px;
+    padding: 20px;
     margin: 5px 0px;
     background-color: transparent;
     color: white;
@@ -382,6 +382,7 @@ export const WriteUpSection = styled.div`
   padding-left: 20px;
   line-height: 1.2;
   width: 100%;
+  max-width: 900px;
 
   h3 {
     color: #BDBDBD;
@@ -393,8 +394,7 @@ export const WriteUpSection = styled.div`
     color: ccc;
     font-size: 20px;
     line-height: 1.2;
-
-    }
+  }
 `;
 
 export const ImageSection = styled.div`
@@ -402,6 +402,7 @@ export const ImageSection = styled.div`
   display: no-flex;
   flex-direction: column;
   align-items: left;
+  max-width: 900px;
 
   
     .start-new-line {

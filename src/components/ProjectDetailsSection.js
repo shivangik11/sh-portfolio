@@ -1,3 +1,5 @@
+
+
 const HomePage = () => {
   const [activeSection, setActiveSection] = useState('about');  // Default to 'about'
 
