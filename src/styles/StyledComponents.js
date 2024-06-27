@@ -210,15 +210,19 @@ export const ProjectList = styled.ul`
 
   li {
     font-size: 22px;
-    padding: 20px;
-    margin: 5px 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
     background-color: transparent;
     color: white;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid white;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
     transition: background-color ;
 
    &.active {
@@ -245,7 +249,7 @@ export const ProjectList = styled.ul`
       }
 
       small {
-        font-size: 0.8em;
+        font-size: 0.9em;
         font-weight: 10;  // Adjust the font weight
         color: #ccc;  // You can change this color as needed
         margin: 0px;
@@ -370,7 +374,7 @@ p{
   padding:10px;
   grid-row: 4;
   max-height: 100%;
-  background-color: black;
+  border-bottom: 0px solid white;
 }
 `;
 export const StyledButton = styled.button`

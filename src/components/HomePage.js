@@ -151,12 +151,12 @@ media: [
 ],
 },
 
-{
-  id: 6,
-  name: 'MOTION DESIGN',
-  subheading: 'Coming soon',
-  details: 'coming soon',
-},
+// {
+//   id: 6,
+//   name: 'MOTION DESIGN',
+//   subheading: 'Coming soon',
+//   details: 'coming soon',
+// },
 
 
 
