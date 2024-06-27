@@ -74,10 +74,19 @@ const projects = [
   {
     id: 3,
     name: 'S-SQUARE STUDIO',
-    tools: 'Figma, Framer, Photoshop, Illustrator, Pen & sketch',
-    timeline: '2-Week',
+    tools: 'Figma, Illustrator, React.js, Vercel',
+    timeline: '2-Weeks',
     subheading: 'Website Design | Brand Identity | Visual Design',
-    details: 'Details of Project 2',
+    details: ' An architectural studio based in India, focusing on establishing their digital presence and crafting a distinctive brand identity.',
+    extendedDetails: (
+      <>
+      <h3>Design Philosphy</h3>
+        <p>This studio champions minimalism, a principle that deeply resonates within their architectural philosophy. Embracing this core tenet, I developed a visual identity that reflects simplicity and elegance, ensuring it permeates every aspect of their digital footprint. </p>
+      <h3> Approach </h3>
+        <p>My approach was methodical: I first immersed myself in understanding the nuances of minimalistic design, then methodically applied these principles across all digital media to create a cohesive and recognizable brand. This not only distinguished their online presence but also positioned them uniquely in the competitive market, providing a clear, visual representation of their values and aesthetic approach.</p>
+        
+      </>
+    ),
     media: [
       { src: '/Videos/slogo.mp4', type: 'video', className: 'second-video'},
       { src: '/images/square1.png', type: 'image', className: 'first-img' },
@@ -93,7 +102,7 @@ const projects = [
     id: 4,
   name: 'LIGER',
   tools: 'Figma, Framer, Photoshop, Illustrator, Pen & sketch',
-  timeline: '2-Week',
+  timeline: '2-Weeks',
   subheading: 'Website Design | Brand Identity | Visual Design',
   details: 'Liger Shipping a logistic consultant company looking to establish their digital presence in the era of rapid tech advancement. Through the website, we crafted a platform that not only showcases Shipping expertise and services but also resonates with the expectations of todays tech-savvy clients.',
   extendedDetails: (
@@ -121,8 +130,16 @@ const projects = [
 {
 id: 5,
 name: 'GRAPHIC DESIGN',
+tools: 'Figma, Adobe XD Photoshop, Illustrator, Procreate',
+timeline: 'few Weeks',
 subheading: 'Illustrations | Posters | Infographics',
-details: 'Details of Project 4',
+details: 'The Graphic Design section of the website showcases a vibrant portfolio of diverse projects that highlight expertise in creating compelling visual content.',
+extendedDetails: (
+  <>
+  <h3> Approach </h3>
+   <p>My approach involves a thorough understanding of color theory, typography, and composition, which are leveraged to create designs that are not only beautiful but also purposeful. With every project, I aim to push the boundaries of conventional design to create unique, memorable graphics that stand out in the crowded digital landscape.</p>
+  </>
+),
 media: [
   { src: '/images/g1.png', type: 'image', className: 'second-img' },
   { src: '/images/g2.png', type: 'image', className: 'second-img' },
@@ -130,9 +147,8 @@ media: [
   { src: '/images/g4.png', type: 'image', className: 'second-img' },
   { src: '/images/g5.png', type: 'image', className: 'second-img' },
   { src: '/images/g6.png', type: 'image', className: 'second-img' },
-  { src: '/images/g7.png', type: 'image' , className: 'second-img'},
+  { src: '/images/g7.png', type: 'image', className:'second-img'},
 ],
-writeUp: 'Write up content for Project 2'
 },
 
 {
@@ -168,30 +184,28 @@ const HomePage = () => {
         <ContentSection>
           <AboutSection>
             <Title>ABOUT ME</Title>
-            <Text>
-            Ever since I was a kid, I've thrived on cracking creative conundrums. Now, I translate that passion into crafting innovative user experiences. Think of me as a design detective, piecing together solutions that leave users saying "Aha!" Growing up in India's vibrant tapestry of tradition and modernity has seriously spiced up my design perspective.  It's all about finding the sweet spot between timeless aesthetics and cutting-edge functionality.<br></br>
-            With over 3 years on the design beat, I've crafted intuitive solutions that not only make users happy but also boost business results (think engagement skyrocketing). Now, this New York-based Product Designer is seeking for a collaborative team to fuel my love for learning and creating impactful experiences. Ready to crack some design cases together?
-            </Text>
-            <h3>Design Philosphy</h3>
-            <Text>
-            Crafting with empathy and open mind <br />
-              Verbal Identity<br />
-              Iterative design strategy<br />
-              Lot of brainstorming <br />
-              Open to Ideas and different possibilities<br />
-              Feedback drives some of the best solutions
-            </Text>
+             <Text>
+              As a passionate and innovative Product Designer, I specialize in creating intuitive and engaging user experiences that seamlessly blend form and function. <br/><br/>My design philosophy is grounded in empathy, simplicity, and strategic thinking, ensuring every solution is user-centric and impactful. I approach problems with a meticulous process of research, ideation, and iteration, always open to feedback and new perspectives.<br/><br/> By combining contemporary trends with timeless principles, I deliver designs that not only meet but exceed client expectations, driving meaningful engagement and lasting success.<br></br>
+             </Text>
+            <h3>Design Philosophy</h3>
+              <ul>
+                <li><img src="/images/philosophy.svg" alt="Empathy" /> Crafting with empathy and an open mind</li>
+                <li><img src="/images/philosophy.svg"  alt="Simplicity" /> Iterative design strategy</li>
+                <li><img src="/images/philosophy.svg"  alt="Strategy" /> Lot of brainstorming</li>
+                <li><img src="/images/philosophy.svg"  alt="Strategy" /> Open to Ideas and different possibilities</li>
+                <li><img src="/images/philosophy.svg"  alt="Strategy" /> Feedback drives some of the best solutions</li>
+              </ul>
             <h3>What's uniques about me</h3>
-            <Text>
-            Quick learner & tech enthusiast<br />
-            Easy to talk to & open to feedback<br />
-            Curious mind that asks lot of questions<br />
-            Optimism stands at the top<br />
-            Love for aesthetic & visual design
-            </Text>
+            <ul>
+                <li><img src="/images/unique.svg" alt="Empathy" /> Quick learner & tech enthusiast</li>
+                <li><img src="/images/unique.svg"  alt="Simplicity" /> Easy to talk to & open to feedback</li>
+                <li><img src="/images/unique.svg"  alt="Strategy" /> Curious mind that asks lot of questions</li>
+                <li><img src="/images/unique.svg"  alt="Strategy" /> Optimism stands at the top</li>
+                <li><img src="/images/unique.svg"  alt="Strategy" /> Love for aesthetic & visual design</li>
+              </ul>
           </AboutSection>
           <ProjectListSection>
-            <Title>OUR PROJECTS</Title>
+            <Title>PROJECTS</Title>
             <ProjectList>
               {projects.map(project => (
                 <li
@@ -247,9 +261,9 @@ const HomePage = () => {
         <Footer>
           
         <a href="www.linkedin.com/in/shivangik11" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://www.shivangikhandelwal.com/" target="_blank" rel="noopener noreferrer">Portfolio</a>
-      <a href="mailto:shivangik1599@gmail.com">Email Me</a>
-      <p> ©2021 Shivangi Khandewal,  inspired by StudioFreight's website </p>
+        <a href="https://www.shivangikhandelwal.com/" target="_blank" rel="noopener noreferrer">Product Design Portfolio</a>
+        <a href="mailto:shivangik1599@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>      
+        <p> ©2021 Shivangi Khandewal,  inspired by StudioFreight's website </p>
       
     </Footer>
       </MainContainer>

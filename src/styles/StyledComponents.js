@@ -18,8 +18,9 @@ export const MainContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 0 10px; // Further reduce padding for smaller screens
-  }
+    padding: 10 10px; // Further reduce padding for smaller screens
+    max-width: 2935px; // Set max-width to 100% to
+      }
 `;
 
 
@@ -144,6 +145,7 @@ export const ContentSection = styled.section`
     align-items: stretch;
     max-height: 100%;
     overflow-y: visible;
+    color: black;
   }
 `;
 export const AboutSection = styled.div`
@@ -160,9 +162,38 @@ export const AboutSection = styled.div`
     padding: 10px;
 
   }
+     ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+   }
+li {
+    display: flex;
+    align-items: center; /* Aligns icons with text vertically */
+    margin-bottom: 10px; /* Adds space between items */
+    font-size: 20px;
+    line-height: 1.2;
+}
+li img {
+    width: 50px; /* Sets the icon size */
+    height: 32px;
+    margin-right: 10px; /* Adds space between the icon and text */
+}
 
 @media (max-width: 768px) {
   order: 3; // Comes after project list on small screens
+  max-height: 100%;
+  }
+     ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+   }
+li {
+    display: flex;
+    align-items: center; /* Aligns icons with text vertically */
+    margin-bottom: 10px; /* Adds space between items */
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ccc;
 }
 `;
 
@@ -176,6 +207,7 @@ export const ProjectListSection = styled.div`
   
   @media (max-width: 768px) {
     order: 1; // Comes after project list on small screens
+    max-height: 100%;
   }
 `;
   
@@ -258,6 +290,7 @@ export const ProjectDetailsSection = styled.div`
 
 @media (max-width: 768px) {
   order: 2; // Comes after project list on small screens
+  max-height: 30%;
   
   }
 `;
@@ -339,6 +372,10 @@ export const Footer = styled.footer`
   p{
   grid-column: 2;
   }
+
+  @media (max-width: 768px) {
+  max-height: 100%;
+  color: black;
 `;
 export const StyledButton = styled.button`
   display: flex;
@@ -395,7 +432,9 @@ export const WriteUpSection = styled.div`
     font-size: 20px;
     line-height: 1.2;
   }
+   
 `;
+
 
 export const ImageSection = styled.div`
   padding: 10px;
