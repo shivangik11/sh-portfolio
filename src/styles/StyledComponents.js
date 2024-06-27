@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export const MainContainer = styled.div`
   display: grid;
   grid-template-rows: 80px auto 1fr 80px;
-  padding: 0 30px;
+  padding: 0 20px;
   margin: 0;
   height: 100vh;
   width: 100%;
@@ -198,9 +198,9 @@ li {
 `;
 
 export const ProjectListSection = styled.div`
- order: 2;
+  order: 2;
   border-left: 1px solid white;
-  padding: 0px;
+  padding: 0px, 10px;
   text-align: Left;
   max-height: 700px;
   overflow-y: auto;
