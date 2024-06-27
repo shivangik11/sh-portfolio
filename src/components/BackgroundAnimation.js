@@ -75,12 +75,13 @@ import { gsap } from 'gsap';
 import styled from 'styled-components';
 
 const Background = styled.div`
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   overflow: hidden;
   z-index: -1;
   background-color: black;
+
 `;
 
 const Dot = styled.div`

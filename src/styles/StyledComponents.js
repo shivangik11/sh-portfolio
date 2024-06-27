@@ -19,8 +19,8 @@ export const MainContainer = styled.div`
 
   @media (max-width: 768px) {
     padding: 0, 10px;
-    height: 100vh; // Further reduce padding for smaller screens
-  }
+    height: auto; // Further reduce padding for smaller screens
+    overflow-y: visible;  }
 `;
 
 
@@ -177,8 +177,7 @@ li img {
 @media (max-width: 768px) {
   order: 3; // Comes after project list on small screens
   max-height: 1100px;
-  overflow-y: visible;
-  background-color: black;  
+  overflow-y: visible;  
   padding-bottom:20px
   }
   
