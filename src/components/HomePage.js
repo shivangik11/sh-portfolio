@@ -95,7 +95,7 @@ const projects = [
       { src: '/images/square4.png', type: 'image', className: 'first-img' },
       
     ],
-    writeUp: 'Write up content for Project 2'
+
   },
 
   {

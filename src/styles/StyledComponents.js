@@ -18,10 +18,11 @@ export const MainContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 10 10px; // Further reduce padding for smaller screens
-    max-width: 2935px; // Set max-width to 100% to
-      }
+    padding: 0, 10px;
+    height: 100vh; // Further reduce padding for smaller screens
+  }
 `;
+
 
 
 
@@ -120,8 +121,6 @@ export const CompanyName = styled.h1`
 
 `;
 
-
-
 export const ContentSection = styled.section`
   grid-column: 1 / span 3;
   grid-row: 3;
@@ -130,25 +129,21 @@ export const ContentSection = styled.section`
   max-height: 900px;
   overflow-y: auto; 
   
-  
   @media (max-width: 1440px) {
-  max-height: 600px;
+    max-height: 600px;
+  }
 
-  // @media (max-width: 768px) {
-  //   grid-template-columns: 1fr;
-  //   grid-template-rows: auto auto 0;
-  //  max-height: 100%;
-  // }
-   @media (max-width: 768px) {
+  @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    max-height: 100%;
+    max-height: 500vh;
     overflow-y: visible;
     color: black;
   }
 `;
 export const AboutSection = styled.div`
+  color: white;
   order: 1;
   text-align: Left;
   overflow-y: auto;
@@ -160,12 +155,12 @@ export const AboutSection = styled.div`
     font-size: 24px;
     text-transform: uppercase;
     padding: 10px;
-
   }
-     ul {
+    ul {
     list-style: none; /* Removes default list styling */
     padding: 0;
    }
+
 li {
     display: flex;
     align-items: center; /* Aligns icons with text vertically */
@@ -181,20 +176,13 @@ li img {
 
 @media (max-width: 768px) {
   order: 3; // Comes after project list on small screens
-  max-height: 100%;
+  max-height: 1100px;
+  overflow-y: visible;
+  background-color: black;  
+  padding-bottom:20px
   }
-     ul {
-    list-style: none; /* Removes default list styling */
-    padding: 0;
-   }
-li {
-    display: flex;
-    align-items: center; /* Aligns icons with text vertically */
-    margin-bottom: 10px; /* Adds space between items */
-    font-size: 20px;
-    line-height: 1.2;
-    color: #ccc;
-}
+  
+ 
 `;
 
 export const ProjectListSection = styled.div`
@@ -207,7 +195,10 @@ export const ProjectListSection = styled.div`
   
   @media (max-width: 768px) {
     order: 1; // Comes after project list on small screens
+    border-left: 0px solid white;
     max-height: 100%;
+   overflow-y: hidden;
+   padding: 0px;
   }
 `;
   
@@ -268,6 +259,7 @@ export const ProjectList = styled.ul`
 
 @media (max-width: 768px) {
     li {
+    padding: 10px;
       font-size: 24px;
     }
   }
@@ -290,7 +282,9 @@ export const ProjectDetailsSection = styled.div`
 
 @media (max-width: 768px) {
   order: 2; // Comes after project list on small screens
-  max-height: 30%;
+  border-left: 0px solid white;
+  max-height: 100%;
+  overflow-y: hidden;
   
   }
 `;
@@ -351,7 +345,7 @@ export const Text = styled.p`
 `;
 export const Footer = styled.footer`
   font-family: "Gayathri", sans-serif;
-  color: #ccc;
+  color: white;
   grid-column: 1 / span 3;
   grid-row: 4;
   grid-template-columns: 1fr 1fr;
@@ -361,21 +355,23 @@ export const Footer = styled.footer`
   border-top: 1px solid white;
   display: no-flex;
   
-
   a{
   grid-column: 1;
   color: white;
   padding: 10px;
   
   }
-
-  p{
+p{
   grid-column: 2;
   }
+  
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  padding:10px;
+  grid-row: 4;
   max-height: 100%;
-  color: black;
+  background-color: black;
+}
 `;
 export const StyledButton = styled.button`
   display: flex;
@@ -405,6 +401,7 @@ export const StyledButton = styled.button`
 
    @media (max-width: 768px) {
     font-size: 0.9rem;
+    text
   }
 
   @media (max-width: 480px) {
@@ -455,6 +452,6 @@ export const ImageSection = styled.div`
     &.custom-video {
       max-width: 40%;
     }
-  }
+  
 
 `;
