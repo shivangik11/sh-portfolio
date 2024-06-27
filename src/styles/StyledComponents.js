@@ -18,6 +18,7 @@ export const MainContainer = styled.div`
   }
 
   @media (max-width: 768px) {
+  grid-template-rows: 70px auto 1fr 80px;
     padding: 0, 10px;
     height: auto; // Further reduce padding for smaller screens
     overflow-y: visible;  }
