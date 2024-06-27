@@ -188,7 +188,7 @@ export const ProjectList = styled.ul`
   li {
     font-size: 22px;
     padding: 10px;
-    margin: 5px, 0px;
+    margin: 5px 0px;
     background-color: transparent;
     color: white;
     cursor: pointer;

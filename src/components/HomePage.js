@@ -120,7 +120,7 @@ writeUp: 'Write up content for Project 2'
 },
 
 {
-  id: 5,
+  id: 6,
   name: 'MOTION DESIGN',
   subheading: 'Coming soon',
   details: 'coming soon',
@@ -194,30 +194,45 @@ const HomePage = () => {
             </ProjectList>
           </ProjectListSection>
           <ProjectDetailsSection>
-            <ProjectDetailsHeader>
-              <Title>PROJECT DETAILS</Title>
-              <StyledButton onClick={handleToggleSection}>
-                <span className="text">{showWriteUp ? 'VISUALS' : 'MORE'}</span>
-                <ArrowElbowRight className="arrow" size={20} />
-              </StyledButton>
-            </ProjectDetailsHeader>
-            {showWriteUp ? (
-              <WriteUpSection dangerouslySetInnerHTML={{ __html: selectedProject.writeUp }} />
-            ) : (
-              <ImageSection>
-                {selectedProject.media.map((item, index) => (
-                  <MediaItem key={index} src={item.src} type={item.type} className={item.className} />
-                ))}
-              </ImageSection>
-            )}
-          </ProjectDetailsSection>
+      <ProjectDetailsHeader>
+        <Title>PROJECT DETAILS</Title>
+        <StyledButton onClick={handleToggleSection}>
+          <span className="text">{showWriteUp ? 'Visuals' : 'Read More'}</span>
+          <ArrowElbowRight className="arrow" size={20} />
+        </StyledButton>
+      </ProjectDetailsHeader>
+      {showWriteUp ? (
+        <WriteUpSection>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div style={{ flex: 1 }}>
+              <h2>Overview</h2>
+              <p>{selectedProject.details}</p> {/* Assuming this is the first paragraph */}
+            </div>
+            <div style={{ flex: 1 }}>
+              <h2>Tools and Timeline</h2>
+              <p>Tools used: {selectedProject.tools}</p>
+              <p>Project timeline: {selectedProject.timeline}</p>
+            </div>
+          </div>
+          <div>
+            {/* The rest of the content */}
+            <p>{selectedProject.extendedDetails}</p> {/* Additional details */}
+          </div>
+        </WriteUpSection>
+      ) : (
+        <ImageSection>
+          {selectedProject.media.map((item, index) => (
+            <MediaItem key={index} src={item.src} type={item.type} className={item.className} />
+          ))}
+        </ImageSection>
+      )}
+    </ProjectDetailsSection>
         </ContentSection>
         <Footer>
           
         <a href="www.linkedin.com/in/shivangik11" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="https://www.shivangikhandelwal.com/" target="_blank" rel="noopener noreferrer">Portfolio</a>
       <a href="mailto:shivangik1599@gmail.com">Email Me</a>
-      <a href="mailto:shivangik1599@gmail.com">Github</a>
       <p> ©2021 Shivangi Khandewal,  inspired by StudioFreight's website </p>
       
     </Footer>
