@@ -216,7 +216,8 @@ const HomePage = () => {
           
         <a href="www.linkedin.com/in/shivangik11" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="https://www.shivangikhandelwal.com/" target="_blank" rel="noopener noreferrer">Portfolio</a>
-      <a href="shkh5343@colorado.edu">Email Me</a>
+      <a href="mailto:shivangik1599@gmail.com">Email Me</a>
+      <a href="mailto:shivangik1599@gmail.com">Github</a>
       <p> ©2021 Shivangi Khandewal,  inspired by StudioFreight's website </p>
       
     </Footer>

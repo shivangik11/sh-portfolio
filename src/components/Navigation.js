@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const NavigationMenu = () => {
   return (
     <Navigation>
-      <Link href="shkh5343@colorado.edu" to="/contact">CONTACT </Link>
+      <Link href="mailto:shivangik1599@gmail.com" to="/contact">CONTACT</Link>
     </Navigation>
   );
 };
