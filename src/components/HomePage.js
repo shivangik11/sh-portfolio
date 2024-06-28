@@ -260,7 +260,7 @@ const HomePage = () => {
         </ContentSection>
         <Footer>
           
-        <a href="www.linkedin.com/in/shivangik11" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="www.linkedin.com/in/shivangik11/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://www.shivangikhandelwal.com/" target="_blank" rel="noopener noreferrer">Product Design Portfolio</a>
         <a href="mailto:shivangik1599@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>      
         <p> ©2021 Shivangi Khandewal,  inspired by StudioFreight's website </p>
