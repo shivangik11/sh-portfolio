@@ -153,13 +153,14 @@ export const AboutSection = styled.div`
 
    h3 {
     color: #BDBDBD;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: "Notable", sans-serif;
     text-transform: uppercase;
     padding: 10px;
   }
     ul {
     list-style: none; /* Removes default list styling */
-    padding: 0;
+    padding: 10px;
    }
 
 li {
@@ -192,6 +193,9 @@ export const ProjectListSection = styled.div`
   text-align: Left;
   max-height: 700px;
   overflow-y: auto;
+
+   }
+    
   
   @media (max-width: 768px) {
     order: 1; // Comes after project list on small screens
@@ -210,18 +214,16 @@ export const ProjectList = styled.ul`
 
   li {
     font-size: 22px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
-
     background-color: transparent;
     color: white;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
     transition: background-color ;
 
@@ -258,8 +260,11 @@ export const ProjectList = styled.ul`
         
       }
     }
-  
+  @media (max-width: 1440px) {
+   li{
+   padding:10px;}
   }
+ 
 
 @media (max-width: 768px) {
     li {

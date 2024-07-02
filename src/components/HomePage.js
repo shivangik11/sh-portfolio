@@ -185,17 +185,17 @@ const HomePage = () => {
           <AboutSection>
             <Title>ABOUT ME</Title>
              <Text>
-              As a passionate and innovative Product Designer, I specialize in creating intuitive and engaging user experiences that seamlessly blend form and function. <br/><br/>My design philosophy is grounded in empathy, simplicity, and strategic thinking, ensuring every solution is user-centric and impactful. I approach problems with a meticulous process of research, ideation, and iteration, always open to feedback and new perspectives.<br/><br/> By combining contemporary trends with timeless principles, I deliver designs that not only meet but exceed client expectations, driving meaningful engagement and lasting success.<br></br>
+             As an aspiring Digital Designer, I specialize in creating intuitive and engaging digital products that provide amazing user experiences. <br/><br/>My design philosophy is grounded in strategic thinking, ensuring every solution is user-centric, impactful, and visually appealing. I approach problems with a meticulous process of research, ideation, and iteration, always open to feedback and new perspectives.<br></br>
              </Text>
-            <h3>Design Philosophy</h3>
+            <h3>My Tools</h3>
               <ul>
-                <li><img src="/images/philosophy.svg" alt="Empathy" /> Crafting with empathy and an open mind</li>
-                <li><img src="/images/philosophy.svg"  alt="Simplicity" /> Iterative design strategy</li>
-                <li><img src="/images/philosophy.svg"  alt="Strategy" /> Lot of brainstorming</li>
-                <li><img src="/images/philosophy.svg"  alt="Strategy" /> Open to Ideas and different possibilities</li>
-                <li><img src="/images/philosophy.svg"  alt="Strategy" /> Feedback drives some of the best solutions</li>
+                <li> Figma, Sketch, Prototpie</li>
+                <li>Framer, Wix, Wordpress, Readymeg </li>
+                <li>HTML, CSS, React.js, Next.js, Three.js, P5.js</li>
+                <li>Illustrator, Photoshop, Indesign</li>
+                <li> After Effects, Rive, Procreate</li>
               </ul>
-            <h3>What's uniques about me</h3>
+            <h3> unique about me</h3>
             <ul>
                 <li><img src="/images/unique.svg" alt="Empathy" /> Quick learner & tech enthusiast</li>
                 <li><img src="/images/unique.svg"  alt="Simplicity" /> Easy to talk to & open to feedback</li>
