@@ -214,8 +214,8 @@ export const ProjectList = styled.ul`
 
   li {
     font-size: 22px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: transparent;
@@ -260,9 +260,13 @@ export const ProjectList = styled.ul`
         
       }
     }
-  @media (max-width: 1440px) {
+  @media (max-width: 1500px) {
    li{
-   padding:10px;}
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
   }
  
 
