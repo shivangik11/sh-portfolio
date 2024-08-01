@@ -28,8 +28,7 @@ const projects = [
       </>
     ),
     media: [
-      { src: '/images/f1.png', type: 'image', className: 'second-img' },
-      { src: '/images/f2.png', type: 'image', className: 'second-img'},
+      { src: '/images/f1.png', type: 'image', className: 'first-img' },
       { src: '/images/f2-1.png',type:'image', className: 'first-img'},
       { src: '/images/f3.png', type: 'image', className: 'first-img' },
       { src: '/images/f4.png', type: 'image', className: 'first-img'},
