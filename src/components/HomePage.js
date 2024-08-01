@@ -10,10 +10,43 @@ import MediaItem from './MediaItem';
 const projects = [
   {
     id: 1,
-    name: 'URBANPARKR',
+    name: 'Stratify',
+    tools: 'Figma, Photoshop, ChatGPT, Pen & Paper',
+    timeline: '1 Month',
+    subheading: 'Strategic Investment Simplified | Fin-Tech Application Design', 
+    details: 'We are addressing the challenge of empowering young investors to make informed investment decisions with confidence. The application provides a comprehensive suite of tools including market sentiment analysis, personalized learning paths, and advanced investment features.',
+    extendedDetails: (
+      <>
+        <h3>Problem</h3>
+        <p>We are addressing the challenge of empowering young and aspiring investors to make informed investment decisions with confidence. The application provides a comprehensive suite of tools including market sentiment analysis, personalized learning paths, and advanced investment features like asset allocation guidance, and diversification checks. By integrating educational resources, real-time data, and user-friendly interfaces, the app simplifies complex financial concepts and supports users in building and managing a balanced, diversified portfolio aligned with their risk tolerance and financial goals.</p>
+        
+        <h3>Approach</h3>
+        <p>Developing Stratify was a journey driven by the desire to simplify the investment process for young investors. My approach began with extensive research into the challenges faced by novice investors, such as understanding market complexities, managing risk, and accessing reliable educational resources. Inspired by leading financial apps, I identified key features that could address these issues and enhance the user experience. Collaborating with financial experts and leveraging cutting-edge technology, I focused on creating a user-centric design that integrates real-time market analysis, advanced risk management tools, personalized learning paths, and intuitive financial calculators. This comprehensive approach ensures that Stratify not only empowers users to make informed decisions but also fosters financial literacy and confidence in their investment journey.</p>
+        
+        <h3>Solution and Impact</h3>
+        <p>Stratify offers a comprehensive solution by integrating real-time market analysis, advanced risk management tools, personalized learning paths, and intuitive financial calculators into one user-friendly platform. This holistic approach empowers young investors to make informed decisions, manage risks effectively, and build diversified portfolios tailored to their financial goals. The impact of Stratify is significant: it simplifies complex financial concepts, enhances financial literacy, and fosters confidence among users, ultimately enabling them to achieve long-term financial success. By addressing the specific needs of tech-savvy young investors, Stratify transforms the way they engage with and navigate the investment landscape.</p>
+      </>
+    ),
+    media: [
+      { src: '/images/f1.png', type: 'image', className: 'second-img' },
+      { src: '/images/f2.png', type: 'image', className: 'second-img'},
+      { src: '/images/f2-1.png',type:'image', className: 'first-img'},
+      { src: '/images/f3.png', type: 'image', className: 'first-img' },
+      { src: '/images/f4.png', type: 'image', className: 'first-img'},
+      { src: '/images/f5.png', type: 'image', className: 'first-img'},
+      { src: '/images/f6.png', type: 'image', className: 'first-img'},
+      { src: '/images/f7.png', type: 'image', className: 'first-img'},
+      { src: '/images/f8.png', type: 'image', className: 'first-img'},
+    
+    ],
+   
+    },
+  {
+    id: 2,
+    name: 'UrbanParkr',
     tools: 'Figma, Photoshop, Illustrator, Google Forms, Pen & sketch',
     timeline: '2-Months',
-    subheading: 'Application Design',
+    subheading: 'Parking Congestion | Application Design',
     details: 'A platform that connects drivers in search of parking spaces with individuals looking to monetize their available spots. Addressed the parking issues faced by over 60% of Boulder drivers with a mobile application.',
     extendedDetails: (
       <>
@@ -29,10 +62,10 @@ const projects = [
     ),
     media: [
       { src: '/Videos/Video2.mp4', type: 'video', className: 'second-video' },
-      { src: '/images/phonemockup.png', type: 'image', className: 'second-img'},
-      { src: '/images/mainscreens.png', type: 'image', className: 'second-img'},
-      { src: '/images/rentmyspotpng.png', type: 'image', className: 'second-img' },
-      { src: '/images/u1.png', type: 'image', className: 'second-img'},
+      { src: '/images/phonemockup.png', type: 'image', className: 'first-img'},
+      { src: '/images/mainscreens.png', type: 'image', className: 'first-img'},
+      { src: '/images/rentmyspotpng.png', type: 'image', className: 'first-img' },
+      { src: '/images/u1.png', type: 'image', className: 'first-img'},
       { src: '/Videos/Video1.mp4', type: 'video', className: 'first-video' },
       { src: '/images/u2.png', type: 'image', className: 'first-img'},
     
@@ -40,11 +73,11 @@ const projects = [
    
     },
   {
-    id: 2,
-    name: 'STORIO',
+    id: 3,
+    name: 'Storio',
     tools: 'Figma, Qualitrics, Photoshop, Illustrator, Pen & sketch',
     timeline: '1-Week',
-    subheading: 'Application Design',
+    subheading: 'DEI | Application Design',
     details: 'Embark on a journey of stories with our app, designed to bridge the gap between generations and foster meaningful connections, targeting a 50% reduction in cultural homogenization and diversity loss. Awarded as runner-up for best project.',
     extendedDetails: (
       <>
@@ -72,8 +105,8 @@ const projects = [
 
 
   {
-    id: 3,
-    name: 'S-SQUARE STUDIO',
+    id: 4,
+    name: 'S-Square Studio',
     tools: 'Figma, Illustrator, React.js, Vercel',
     timeline: '2-Weeks',
     subheading: 'Website Design | Brand Identity | Visual Design',
@@ -99,8 +132,8 @@ const projects = [
   },
 
   {
-    id: 4,
-  name: 'LIGER',
+    id: 5,
+  name: 'Liger',
   tools: 'Figma, Framer, Photoshop, Illustrator, Pen & sketch',
   timeline: '2-Weeks',
   subheading: 'Website Design | Brand Identity | Visual Design',
@@ -128,8 +161,8 @@ const projects = [
    ],
   },
 {
-id: 5,
-name: 'GRAPHIC DESIGN',
+id: 6,
+name: 'Graphic Design',
 tools: 'Figma, Adobe XD Photoshop, Illustrator, Procreate',
 timeline: 'few Weeks',
 subheading: 'Illustrations | Posters | Infographics',
@@ -141,13 +174,13 @@ extendedDetails: (
   </>
 ),
 media: [
-  { src: '/images/g1.png', type: 'image', className: 'second-img' },
-  { src: '/images/g2.png', type: 'image', className: 'second-img' },
-  { src: '/images/g3.png', type: 'image', className: 'second-img' },
-  { src: '/images/g4.png', type: 'image', className: 'second-img' },
-  { src: '/images/g5.png', type: 'image', className: 'second-img' },
-  { src: '/images/g6.png', type: 'image', className: 'second-img' },
-  { src: '/images/g7.png', type: 'image', className:'second-img'},
+  { src: '/images/g1.png', type: 'image', className: 'first-img' },
+  { src: '/images/g2.png', type: 'image', className: 'first-img' },
+  { src: '/images/g3.png', type: 'image', className: 'first-img' },
+  { src: '/images/g4.png', type: 'image', className: 'first-img' },
+  { src: '/images/g5.png', type: 'image', className: 'first-img' },
+  { src: '/images/g6.png', type: 'image', className: 'first-img' },
+  { src: '/images/g7.png', type: 'image', className:'first-img'},
 ],
 },
 
