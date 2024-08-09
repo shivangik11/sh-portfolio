@@ -159,10 +159,37 @@ const projects = [
     { src: '/images/l6.png', type: 'image' , className: 'first-img'},
    ],
   },
+  {
+    id: 6,
+    name: '1Kosmos',
+    tools: 'Figma, Photoshop',
+    timeline: '2 Weeks',
+    subheading: 'Product Design | Authenticator Application',
+    details: 'The 1Kosmos Authenticator app uses biometric authentication and government-issued IDs to verify your identity securely. Access your accounts instantly and safely, ensuring your data is always protected.',
+    extendedDetails: (
+      <>
+      <h3> Product description </h3>
+       <p>Orion Authenticator is an advanced authentication solution designed specifically for Apple Mac devices, enabling users to connect seamlessly with the 1Kosmos dashboard. This authenticator leverages a six-digit PIN to securely verify user identities, ensuring safe and instant access to their accounts. By integrating robust security features and a user-friendly interface, 1K Agent Auth simplifies the verification process, making it easier for users to manage and use their data without compromising on security.</p>
+       <h3> Design Approach </h3>
+       <p>My design approach begins with a comprehensive market survey to understand user needs and preferences. Using Figma, I create intuitive and accessible designs, ensuring easy user flow and content comprehension through a detailed UX checklist. I strictly adhere to accessibility guidelines to make my designs inclusive. Working within an agile methodology, I iterate quickly based on feedback, ensuring continuous improvement and alignment with user expectations.</p>
+       <h3> Opportunity Statement </h3>
+       <p>How might we create a seamless and secure authentication experience for Apple Mac users, allowing them to effortlessly connect to the 1Kosmos dashboard and access their accounts with ease and confidence?</p>
+      </>
+    ),
+    media: [
+      { src: '/images/1K.png', type: 'image', className: 'first-img' },
+      { src: '/images/2K.png', type: 'image', className: 'first-img' },
+      { src: '/images/3K.png', type: 'image', className: 'first-img' },
+      { src: '/images/4K.png', type: 'image', className: 'first-img' },
+      { src: '/images/5K.png', type: 'image', className: 'first-img' },
+      { src: '/images/6K.png', type: 'image', className: 'first-img' },
+      { src: '/images/7K.png', type: 'image', className:'first-img'},
+    ],
+    },
 {
-id: 6,
+id: 7,
 name: 'Graphic Design',
-tools: 'Figma, Adobe XD Photoshop, Illustrator, Procreate',
+tools: 'Figma, Adobe XD, Photoshop, Illustrator, Procreate',
 timeline: 'few Weeks',
 subheading: 'Illustrations | Posters | Infographics',
 details: 'The Graphic Design section of the website showcases a vibrant portfolio of diverse projects that highlight expertise in creating compelling visual content.',
@@ -182,6 +209,8 @@ media: [
   { src: '/images/g7.png', type: 'image', className:'first-img'},
 ],
 },
+
+
 
 // {
 //   id: 6,
